@@ -14,6 +14,7 @@ class FetchApi extends React.Component{
         fetch('https://jsonplaceholder.typicode.com/albums')
         .then(res=>res.json())
         .then(data => {
+            console.log(data,'data')
             this.setState({
                 isLoaded:true,
                 items:data

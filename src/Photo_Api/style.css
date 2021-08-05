@@ -1,0 +1,23 @@
+td.image img {
+    width: 100px;
+}
+
+.photoStyle{
+    text-align: center;
+    background-color: grey;
+    height: 100px;
+    padding-top:50px ;
+    color: white;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.tableStack {
+    width: 56%;
+    margin: 0 auto;
+}
